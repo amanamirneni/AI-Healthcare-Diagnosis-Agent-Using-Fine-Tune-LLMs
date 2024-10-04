@@ -6,21 +6,22 @@ Multilingual Capabilities: If the model needs to handle multiple languages, it s
 
 3. Chatbot Interaction Framework
 The chatbot serves as a user-facing system capable of understanding medical queries and providing accurate healthcare information based on the fine-tuned language model.
-a. Input and Output Handling
-User Input: Users can interact with the chatbot via text, asking healthcare-related questions.
-Multilingual Response: Depending on the fine-tuning and dataset, the chatbot can generate responses in the same language as the user input. The model can handle complex medical terminology and provide relevant healthcare advice.
+   a. Input and Output Handling
+   User Input: Users can interact with the chatbot via text, asking healthcare-related questions.
+   Multilingual Response: Depending on the fine-tuning and dataset, the chatbot can generate responses in the same language as the user input. The model can handle complex medical terminology and provide relevant 
+   healthcare advice.
 
 5. Text-to-Speech (TTS) for Speech Output
 Once the chatbot generates a text response, it can convert that text into speech for accessibility.
 
-a. TTS System Integration
-Text-to-Speech (TTS): By using a TTS engine like gTTS (Google Text-to-Speech), Festival, or Hugging Face's espnet models, the chatbot can convert textual responses into speech.
-Multilingual Speech Synthesis: The TTS engine should be able to synthesize speech in the language of the generated response, allowing the chatbot to speak in multiple languages.
+   a. TTS System Integration
+   Text-to-Speech (TTS): By using a TTS engine like gTTS (Google Text-to-Speech), Festival, or Hugging Face's espnet models, the chatbot can convert textual responses into speech.
+   Multilingual Speech Synthesis: The TTS engine should be able to synthesize speech in the language of the generated response, allowing the chatbot to speak in multiple languages.
 
-b. Speech Synthesis Process
-Text Response Generation: The chatbot model generates a response based on the user query.
-Speech Conversion: The text is passed to a TTS system, which synthesizes the response into speech.
-Audio Output: The chatbot plays the audio response back to the user, enabling voice interaction.
+   b. Speech Synthesis Process
+   Text Response Generation: The chatbot model generates a response based on the user query.
+   Speech Conversion: The text is passed to a TTS system, which synthesizes the response into speech.
+   Audio Output: The chatbot plays the audio response back to the user, enabling voice interaction.
 
 4. User Interaction Flow
 Text Query: Users ask healthcare questions through a text input system, and the chatbot processes the query using the fine-tuned model.
